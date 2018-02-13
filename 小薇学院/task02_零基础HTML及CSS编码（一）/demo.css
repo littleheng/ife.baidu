@@ -1,0 +1,163 @@
+.grey {
+	color: #94979C;
+}
+.ft-12 {
+	font-size: 12px;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mt-10 {
+	margin-top: 10px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.list-item {
+	width: 100%;
+	background-color: #fff;
+	border: #CDCDCD solid 1px;
+	margin-bottom: 20px;
+	padding: 40px 20px;
+	-webkit-box-shadow: 3px 3px 3px #9F9F9F;	
+	/* h-shadow：必需。水平阴影的位置。允许负值 */
+	/* v-shadow：必需。垂直阴影的位置。允许负值 */
+	/* blur：可选。模糊距离 */
+	/* spread：可选。阴影的尺寸。 */
+	/* color：可选。阴影的颜色。请参阅 CSS 颜色值。 */
+	/* inset：可选。将外部阴影 (outset) 改为内部阴影 */
+}
+.list-item ul li {
+	list-style: none;
+	padding-left: 20px;
+}
+.list-item ol {
+	padding-left: 30px;
+	margin: 10px 0px;
+}
+.list-item table {
+	border-collapse: collapse; 	
+	/* border-collapse属性设置表格的边框是否被合并为一个单一的边框， */
+	/* separate是默认值，边框会被分开。不会忽略border-spacing和empty-cells属性。 */
+	/* collapse如果可能，边框会合并为一个单一的边框。会忽略border-spacing和empty-cells属性。 */
+	border: none; 
+	width: 100%;
+}
+.list-item table tr:first-child {	/* first-child伪类与前面的冒号不能有空格，有空格会失效 */
+	background-color: #333;
+	color: #fff;
+}
+.list-item table tr:last-child {
+	background-color: #ccc; 
+	font-weight: bold;
+}
+.list-item table td {
+	border: solid #CBCBCB 1px;
+	padding-left: 5px;
+}
+.list-item .right-title {	
+	border-left: #ccc solid 3px;
+	padding-left: 8px;
+}
+.text-item {
+	text-indent: 2em;
+}
+.img-item {
+	width: 120px;
+	height: 120px;
+	margin-left: 30px;
+	margin-top: 20px;
+	border: #CBCBCB solid 1px;
+	text-align: center;
+	font-size: 12px;
+}
+.img-item img {
+	width: 100px;
+	height: 85px;
+}
+.user-info-item {
+	position: relative;
+	margin-top: 15px;
+} 
+.align-left {
+	margin-left: 390px;
+	display: inline-block;
+}
+.align-right {
+	position: absolute;
+	right: 830px;
+	text-align: right;
+	display: inline-block;;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;	
+	box-sizing: border-box;
+}		/* 开头忘记如何初始化 */
+body {
+	background-color: #DEDEDE;
+	font-size: 14px;
+	line-height: 24px;
+}
+.demo-top {
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+	line-height: 60px;
+	position: relative;
+	padding: 0px 20px;
+}
+.demo-top h1 {
+	float: left;
+}
+.demo-top ul {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;	
+}
+.demo-top ul li{
+	width: 60px;
+	float: left;
+	margin-right: 30px;
+	/* li元素设置：display: inline-block;之后，由于li的默认display: list-item(有小黑点);所以相当于你改变了它的本质属性，小黑点会消失。 */
+	/* li元素设置：float: left; 元素会从左至右排列；float: right; 元素会从右至左排列。 */
+	/*list-style-position: inside;*/
+	/* li元素的小黑点的显示位置是由list-style-position属性决定的，默认效果是outside，在li的外面，它不占用li的宽度；还可以设置成inside，在li的里面，会占用li的宽度。 */
+}
+.demo-top ul li a {
+	color: #fff;
+	text-decoration: none;	/* 忘记去掉下划线的css属性名 */
+	font-size: 12px;
+}
+.demo-main {
+	padding: 20px 20px 0px;	/* 值为1个时对应所有；值为2个时对应上下、左右；值为3个时对应上、左右、下；值为4个时分别对应上、右、下、左。 */
+}
+.form-submit {
+	border: none;	/* 去掉按钮默认灰色边框 */
+	width: 1200px;
+	height: 40px;
+	border-radius: 10px;	/* 按钮边角圆角度 */
+	display: block;
+	margin: 0 auto;	/* 元素为块级时，才有效 */
+	background-color: #3355D0;
+	color: #fff;
+	text-align: center;
+	outline: none;	/* 按钮点击时去掉蓝色边框 */
+	margin-top: 10px;
+	font-size: 16px;
+}
+.demo-bottom {
+	background-color: #000;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;	/* 文字垂直居中最好line-height和height设置到一样大 */
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
