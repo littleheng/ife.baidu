@@ -141,6 +141,7 @@
 	height: 200px;
 	margin-right: 20px;
 	float: left;
+	text-align: justify;
 }
 .paper-middle .m-article:last-child {
 	width: 140px;
@@ -176,7 +177,6 @@
 }
 .paper-middle .m-article:nth-child(2)>p {
 	color: #231815;
-
 }
 .paper-middle .m-article p.percent {
 	margin-top: 10px;
@@ -225,6 +225,7 @@
 	font-family: SimSun;
 	line-height: 16px;
 	padding: 20px 0;
+	text-align: justify;
 	border-top: #11456b solid 2px;
 }
 .paper-bottom .b-left .forward {
@@ -350,11 +351,11 @@
 	font-family: SimHei;
 	font-style: italic;
 	line-height: 16px;
-	text-align: left;
 	margin-left: 10px;
 	margin-top: 30px;
 	text-indent: 35px;
 	vertical-align: top;
+	text-align: justify;
 	position: relative;
 }
 .paper-bottom .b-right .bottom-block .text-block .quote {
